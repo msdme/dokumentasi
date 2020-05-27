@@ -108,7 +108,7 @@ Pada [dokumentasi support zendesk](https://support.zendesk.com/hc/en-us/articles
 [lihat dokumentasi api zendesk](https://developer.zendesk.com/rest_api/docs/support/tags#autocomplete-tags)
 
 - Digunakan untuk mengisi field: `tags`
-
+- Lihat pada gambar dengan label nomor 3
 > Method
 ```
 GET
@@ -132,7 +132,7 @@ Untuk Assignee ini dibutuhkan 3 API yang di gunakan dari Zendesk, kemudian di be
 ### API 1. Get Group Membership
 [lihat dokumentasi api zendesk](https://developer.zendesk.com/rest_api/docs/support/group_memberships#list-memberships)
 - Digunakan untuk mengisi field: ```assignee_id```
-
+- Lihat pada gambar dengan label nomor 1
 > Method
 ```
 GET
@@ -151,6 +151,7 @@ GET
 ### API 2. Get Assignable Group
 [lihat dokumentasi api zendesk](https://developer.zendesk.com/rest_api/docs/support/groups#show-assignable-groups
 )
+- Lihat pada gambar dengan label nomor 1
 
 > Method 
 ```
@@ -169,7 +170,7 @@ GET
 ### API 3. Get Users
 
 - lihat dokumentasi dibawah untuk `Followers`
-
+- Lihat pada gambar dengan label nomor 1
 ---
 
 ## Followers: 
@@ -177,7 +178,7 @@ GET
 
 [lihat dokumentasi api zendesk](https://developer.zendesk.com/rest_api/docs/support/users#list-users)
 - Digunakan untuk mengisi field: ```follower```
-
+- Lihat pada gambar dengan label nomor 2
 > Method
 ```
 GET
@@ -225,6 +226,7 @@ Forms ini didapat dari 2 API dari Zendesk, kemudian di bentuk ulang di backend S
 [lihat dokumentasi API Zendesk](https://developer.zendesk.com/rest_api/docs/support/ticket_forms#list-ticket-forms)
 
 - Digunakan untuk mengisi field: ```ticket_form_id```
+- Lihat pada gambar dengan label nomor 5
 > Method
 ```
 GET
@@ -242,7 +244,7 @@ GET
 
 [lihat dokumentasi API Zendesk](https://developer.zendesk.com/rest_api/docs/support/ticket_fields#list-ticket-fields)
 - Digunakan untuk mengisi field: ```custom_fields, custom_fields.*.id```
-
+- Lihat pada gambar dengan label nomor 5
 > Method
 ```
 GET
@@ -264,7 +266,7 @@ GET
 - [lihat dokumentasi Support Zendesk](https://support.zendesk.com/hc/en-us/articles/203661466-Sharing-tickets-with-other-Zendesk-Support-accounts)
 
 - Digunakan untuk megisi field: ```sharing_agreement_ids```
-
+- Lihat pada gambar dengan label nomor 4
 > Method
 ```
 GET
