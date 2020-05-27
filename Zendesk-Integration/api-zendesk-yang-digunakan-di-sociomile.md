@@ -19,7 +19,7 @@ Untuk parameter _request_ yang tidak dikirimkan dari Sociomile, namun dibutuhkan
 
 # Bentuk Form Forward di Sociomile
 
-[Klik disini untuk melihat Form Upload Image dari Sociomile](https://pasteboard.co/Ja82oPp.png)
+![Gambar Form](https://github.com/msdme/dokumentasi/blob/master/Zendesk-Integration/Form-Upload.png)
 
 # Daftar API yang digunakan di Sociomile
 ## Create Ticket:
